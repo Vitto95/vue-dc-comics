@@ -75,7 +75,8 @@ header {
   background-color: white;
   .container {
     display: flex;
-    background-color: lightcoral;
+    padding: 0 10px;
+    /*     background-color: lightgreen;*/
     .logo {
       display: flex;
       align-items: center;
@@ -106,7 +107,9 @@ header {
   display: flex;
   li {
     margin-right: 20px;
-    li a {
+    a {
+      font-size: 0.75rem;
+      text-transform: uppercase;
       color: black;
     }
   }
