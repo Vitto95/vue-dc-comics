@@ -33,11 +33,19 @@ body {
 }
 
 ul {
+  list-style-type: none;
+}
+
+li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+a:visited {
+  color: white;
 }
 
 .container {
